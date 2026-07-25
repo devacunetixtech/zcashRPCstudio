@@ -329,7 +329,7 @@ export default function ZcashPlayground() {
         }),
       });
 
-      const provider = res.headers.get("x-zcash-node-provider") || "GetBlock.io Node";
+      const provider = res.headers.get("x-zcash-node-provider") || "Block Node";
       const target = res.headers.get("x-zcash-target-url") || "https://go.getblock.io/zcash/";
       setNodeProvider(provider);
       setNodeTargetUrl(target);
