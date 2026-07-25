@@ -55,11 +55,6 @@ The playground is designed to support both local node requirements and immediate
    ZCASH_RPC_PASS=your_rpc_password
    ```
 
-   **Option B: Managed Cloud Node Fallback (GetBlock.io)**
-   ```env
-   GETBLOCK_ZCASH_TOKEN=your_getblock_access_token_here
-   ```
-
 4. **Run the local development server:**
    ```bash
    npm run dev
