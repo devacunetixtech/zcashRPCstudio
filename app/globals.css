@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #09090b;
+    color: #f4f4f5;
+  }
+}
+
+/* Custom Scrollbar for response panel and history */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* JSON Code Highlight styling */
+.rpc-key {
+  color: #a1a1aa; /* Zinc 400 */
+}
+.rpc-string {
+  color: #fbbf24; /* Amber 400 */
+}
+.rpc-number {
+  color: #60a5fa; /* Blue 400 */
+}
+.rpc-boolean {
+  color: #f43f5e; /* Rose 500 */
+}
+.rpc-null {
+  color: #52525b; /* Zinc 600 */
+}
+.rpc-syntax {
+  color: #71717a; /* Zinc 500 */
+}
